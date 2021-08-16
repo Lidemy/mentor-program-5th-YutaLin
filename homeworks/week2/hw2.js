@@ -2,7 +2,7 @@ function capitalize(str) {
 	var output = ""
 
 	for (i=0;i<str.length; i++) {
-		if (i == 0) {
+		if (i === 0) {
 			var firstCharCode = str[0].charCodeAt()
 			if (firstCharCode <= 122 && firstCharCode >= 97) {
 				var capitalizeCharCode = firstCharCode - 32 
